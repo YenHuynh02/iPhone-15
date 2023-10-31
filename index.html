@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPhone 15 Pro</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/f4114c6868.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--Top bar menu-->
+    <div id="menu">
+        <nav>
+            <ul id="sidemenu">
+                <li><a href="#menu">iPhone 15</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#help">Help</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#social">Social Media</a></li>
+                <i class="fa-solid fa-xmark" style="color: white;" onclick="closeMenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" style="color: white;" onclick="openMenu()"></i>
+        </nav>
+    </div>
+
+    <!--Home-->
+    <div id="home">
+        <div id="header">
+            <p>START SAVING NOW</p>
+            <h1>iPhone 15 Pro</h1>
+            <h1>Violet Titanium</h1>
+        <!--Mobile Phone-->
+            <img id ="myImg" src="images/front-pic.jpg">
+            <canvas id="camera"></canvas>
+            <canvas id="camera-lense"></canvas>
+            <span id="clock"></span>
+            <span id="date"></span>
+            <canvas id="phone"></canvas>
+        </div>
+        <!--Details-->
+        <div class="infor">
+            <nav>
+                <span id="chip">
+                    <img src="images/a17.png"></img>
+                    <p>A17 Pro chip with<br>6-core GPU</p>
+                </span>
+                
+                <span id="camPro">
+                    <img src="images/proCam.png"></img>
+                    <p>Pro camera system</p>
+                </span>
+
+                <span id="battery">
+                    <img src="images/battery.png"></img>
+                    <p>Up to 29 hours video playback</p>
+                </span>
+            </nav>
+        </div>
+    </div>
+
+    
+    <!--Features-->
+    <div id="features">
+        <div id="intro">
+            <h1>Get in touch with<br><span>Action</span> button</h1>
+        </div>
+
+        <img id="imgDisplay" src="images/actionIphone.jpg">
+        
+        <div id="container"></div>
+        <div id="container1"></div>
+        <div id="container2"></div>
+        <div id="container3"></div>
+        <div id="container4"></div>
+        <div id="container5"></div>
+
+        <div class="display">
+            <div id="silent"><i class="fa-solid fa-bell-slash" style="color: red;"></i>Silent</div>
+            <div id="focus"><i class="fa-solid fa-moon" style="color: rgb(128, 107, 223);"></i>On</div>
+            <div id="cam"><i class="fa-solid fa-camera" style="color: #ffffff;"></i></div>
+            <div id="flashlight"><i class="fa-solid fa-bolt" style="color: #ffffff;"></i></div>
+            <div id="voice"><i class="fa-solid fa-microphone" style="color: red;"></i>00:01<span id="circle"></span><span id="box"></span></div>
+            <div id="translate">
+                <p><span>English</span><br>My name is Yen</p>
+                <p id="french"><span>French</span><br>je m'appelle Yen</p>
+                <span id="line"></span>
+                <span id="boxLang"></span>
+                <span id="circleLang"></span> 
+            </div>
+            <div id="magnifier">
+                <i class="fa-solid fa-magnifying-glass-plus" style="color: #ffffff;"></i>
+                <img src="images/magnifier.jpg" id="magImg">
+            </div>
+            <div id="shortcut">
+                <i class="fa-solid fa-note-sticky" style="color: rgb(255, 196, 1);"></i>
+                <p>My name is Yen, I like coding. <span id="cursor">|</span></p>
+                <span id="cancel">Cancel</span>
+                <span id="done">Done</span>
+            </div>
+            <div id="accessibility">
+                <span id="phrases"><i class="fa-solid fa-bookmark"></i>&nbsp;Phrases</span>
+                <p id="contact">Feel free to reach at anytime!<span id="con">|</span></p>
+                <span id="cross">X</span>
+                <i id="access" class="fa-solid fa-universal-access" style="color: #ffffff;"></i>
+                <i id="keyboard" class="fa-regular fa-keyboard" style="color: white;"></i>
+            </div>
+        </div>
+        
+        <div id="action">
+            <ul>
+                <li id="SILENT"><i class="fa-solid fa-bell-slash" style="color: #ffffff;"></i>Silent mode</li>
+                <li id="FOCUS">&nbsp;<i class="fa-solid fa-moon" style="color: #ffffff;"></i>&nbsp;Focus</li>
+                <li id="CAMERA"><i class="fa-solid fa-camera" style="color: #ffffff;"></i>&nbsp;Camera</li>
+                <li id="FLASHLIGHT"><i class="fa-solid fa-bolt" style="color: #ffffff;"></i>&nbsp;Flashlight</li>
+                <li id="VOICE">&nbsp;<i class="fa-solid fa-microphone" style="color: #ffffff;"></i>&nbsp;Voice Memo</li>
+                <li id="TRANSLATE"><i class="fa-solid fa-language" style="color: #ffffff;"></i>Translate*</li>
+                <li id="MAGNIFIER">&nbsp;<i class="fa-solid fa-magnifying-glass-plus" style="color: #ffffff;"></i>Magnifier</li>
+                <li id="SHORTCUT">&nbsp;<i class="fa-solid fa-note-sticky" style="color: #ffffff;"></i>&nbsp;Shortcut</li>
+                <li id="ACCESSIBILITY">&nbsp;<i class="fa-solid fa-universal-access" style="color: #ffffff;"></i>&nbsp;Accesibility</li>
+            </ul>
+        </div>
+
+        <div class="line"></div>
+    </div>
+
+    <!-- Help -->
+    <div id="help">
+        <h1>Customer Service</h1>
+        <div id="support">
+            <i class="fa-solid fa-headset"></i>
+            <p>We are here to provide a best services and satisfaction to a customer.</p>
+        
+        </div>
+        <div id="information">
+            <i class="fa-brands fa-apple"></i>
+            <p>Feel free to contact through our website at <a href="https://www.apple.com/ca/iphone-15-pro/" target="_blank">Apple</a></p>
+        </div>
+    </div>
+
+    <!-- Blog -->
+    <div id="blog">
+        <h1>Blog</h1>
+        <div id="A17">
+            <p>A17 Pro</p>
+            <ul>
+                <li>Game-changing chip</li>
+                <li>Groundbreaking performance</li>
+            </ul>
+        </div>
+        <div id="CAMPRO">
+            <p>Pro Camera</p>
+            <ul>
+                <li>3x or 5x Telephoto camera</li>
+                <li>Ultra Wide camera</li>
+            </ul>
+        </div>
+        <div id="BAT">
+            <p>Long Life Battery</p>
+            <ul>
+                <li>29 hours video playback</li>
+                <li>Fast charging with USB type-C cable</li>
+            </ul>
+            <img id="blogBAT" src="images/blogBattery.png">
+        </div>
+    </div>
+
+    <!-- Social Media -->
+    <div id="social">
+        <h1>Social Media</h1>
+        <p><a href="https://github.com/YenHuynh02" target="_blank"><i class="fa-brands fa-github"></i></a><p id="github">Github</p></p>
+        <p><a href="https://www.linkedin.com/in/yen-huynh-pp12" target="_blank"><i class="fa-brands fa-linkedin"></i></a><p id="linkedin">Linkedin</p></p>
+        <p><a href="https://yenhuynh02.github.io/Portfolio" target="_blank"><i class="fa-solid fa-info"></i></a><p id="portfolio">Portfolio</p></p>
+        <img src="images/contact.jpg" id="socialImg">
+    </div>
+</body>    
+<script src="scripts.js"></script>
+</html>

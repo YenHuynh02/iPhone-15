@@ -1,0 +1,1204 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-size: cover;
+}
+
+:root {
+    --maincolor: rgb(207, 165, 247);
+    --action: rgb(49, 49, 49);
+    --boxcolor: rgb(20, 18, 18);
+}   
+
+html {
+    background-color: rgb(0, 0, 0);
+    scroll-behavior: smooth;
+}
+
+/*Top bar menu*/
+.menu {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+ul li a:hover {
+    color: var(--maincolor);
+    text-shadow: 0 0 10px var(--maincolor);
+}
+
+/*Home*/
+#header {
+    letter-spacing: 3px;
+    margin-top: 10%;
+    margin-left: 5%;
+   
+}
+
+#header p {
+    color: var(--maincolor);
+    box-shadow: 0px 0px 10px var(--maincolor);
+    box-sizing: content-box;
+    width: 20%;
+    padding: 5px;
+    text-align: center;
+}
+
+#header h1 {
+    color: white;
+    font-size: 40px;
+    transition: 0.5s;
+    width: 30%;
+    animation: SmartKey 5s linear infinite;
+    animation-delay: 0s;
+}
+
+/*Mobile phone*/
+#header img{
+    position: absolute;
+    right: 10%;
+    top: 20%;
+    height: auto;
+    width: 15%;
+    display: block;
+    justify-content: right;
+    border-radius: 40px;
+    border-style: solid;
+    border-color:rgb(0, 0, 0);
+    border-width: 5px;
+    box-shadow: 0 0 2px var(--maincolor);
+    margin-left: auto;
+    animation: shadowImg 5s linear infinite;
+    animation-delay: 0s;
+}
+
+#camera {
+    position: absolute;
+    right: 15.5%;
+    top: 22%;
+    width: 4.5%;
+    height: 2.3%;
+    background: rgb(0, 0, 0);
+    border-radius: 100px;
+}
+
+#camera-lense {
+    position: absolute;
+    right: 15.7%;
+    top: 22.3%;
+    width: 11px;
+    height: 11px;
+    background: linear-gradient(rgb(2, 2, 53), rgb(71, 56, 114));
+    border-radius: 50%;
+    box-shadow: 0 0 2px var(--maincolor);
+}
+
+#clock {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    right: 12.5%;
+    top: 30%;
+    font-size: 50px;
+    color: var(--maincolor);
+}
+
+#date {
+    color: white;
+    position: absolute;
+    right: 15.5%;
+    top: 28%;
+    font-size: 12px;
+    color: var(--maincolor);
+}
+
+#phone {
+    color: transparent;
+    position: absolute;
+    right: 22%;
+    bottom: 12%;
+    border-radius: 50%;
+}
+
+/*Details*/
+#chip {
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    left: 50%;
+    animation: opacity 1s linear;
+}
+
+#camPro {
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 49.5%;
+    animation: opacity 1s linear;
+}
+
+#battery {
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 75%;
+    left: 47.5%;
+    animation: opacity 1s linear;
+}
+
+@keyframes SmartKey {
+    0%, 10%, 50% {
+        color: white;
+    }
+
+    60%, 70%, 80% {
+        color: var(--maincolor);
+    }
+
+    75%, 81% {
+        color: var(--maincolor);
+    }
+}
+
+@keyframes shadowImg {
+    0%, 10%, 50% {
+        box-shadow: 0 0 5px var(--maincolor);
+    }
+
+    60%, 70%, 80% {
+        box-shadow: 0 0 10px var(--maincolor);
+    }
+
+    75%, 81% {
+        box-shadow: 0 0 15px var(--maincolor);
+    }
+}
+
+@keyframes opacity {
+    0%, 10%, 20% {
+        opacity: 0;
+    }
+
+    50%, 60% {
+        opacity: 0.5;
+    }
+
+    71%, 80% {
+        opacity: 1;
+    }
+}
+
+/*Features*/
+#features {
+    color: white;
+    position: absolute;
+    top: 110%;
+    left: 20%;
+}
+
+#intro span {
+    color: var(--maincolor);
+}
+
+#imgDisplay {
+    position: absolute;
+    top: 18%;
+    left: 30em;
+    height: 30em;
+    width: auto;
+    opacity: 0.7;
+}
+
+/*Container*/
+#container {
+    display: none;
+    position: absolute;
+    top: 170px;
+    left: 37em;
+    width: 110%;
+    height: 35px;
+    background-color: var(--boxcolor);
+    border-radius: 50px;
+    box-shadow: 0 0 10px var(--maincolor);
+}
+
+#container1 {
+    display: block;
+    position: absolute;
+    top: 170px;
+    left: 39em;
+    width: 80%;
+    height: 35px;
+    background-color: var(--boxcolor);
+    border-radius: 50px;
+    box-shadow: 0 0 10px var(--maincolor);
+}
+
+#container2 {
+    display: none;
+    position: absolute;
+    top: 170px;
+    left: 37em;
+    width: 110%;
+    height: 60px;
+    background-color: var(--boxcolor);
+    border-radius: 50px;
+    box-shadow: 0 0 10px var(--maincolor);
+}
+
+#container3 {
+    display: none;
+    position: absolute;
+    top: 170px;
+    left: 34.5em;
+    width: 140%;
+    height: 100px;
+    background-color: var(--boxcolor);
+    border-radius: 30px 30px;
+    box-shadow: 0 0 10px var(--maincolor);
+}
+
+#container4 {
+    display: none;
+    position: absolute;
+    top: 210px;
+    left: 35.5em;
+    width: 130%;
+    height: 145px;
+    background-color: white;
+    border-radius: 30px 30px;
+    box-shadow: 0 0 10px var(--maincolor);
+    opacity: 0.7;
+}
+
+#container5 {
+    display: none;
+    position: absolute;
+    top: 230px;
+    left: 35.5em;
+    width: 130%;
+    height: 90px;
+    background-color: var(--boxcolor);
+    border-radius: 25px 25px;
+    box-shadow: 0 0 10px var(--maincolor);
+    opacity: 0.6;
+}
+
+/* Elements */
+.display {
+    opacity: 1;
+}
+
+#silent {
+    display: none;
+    position: absolute;
+    top: 180px;
+    left: 50em;
+    width: 50px;
+    height: fit-content;
+    color: red;
+}
+
+#silent i {
+    position: absolute;
+    right: 14em;
+}
+
+#focus {
+    display: none;
+    position: absolute;
+    top: 180px;
+    left: 49em;
+    width: 50px;
+    height: fit-content;
+    color: rgb(128, 107, 223);
+}
+
+#focus i {
+    position: absolute;
+    right: 11.5em;
+}
+
+#cam {
+    display: none;
+    position: absolute;
+    top: 180px;
+    left: 40em;
+}
+
+#flashlight {
+    display: none;
+    position: absolute;
+    top: 180px;
+    left: 40em;
+}
+
+#flashlight i {
+    text-shadow: 0 0 10px white;
+    border-radius: 100px;
+}
+
+#voice {
+    display: none;
+    position: absolute;
+    top: 190px;
+    left: 45em;
+    color: red;
+}
+
+#voice i {
+    position: absolute;
+    left: -100px;
+}
+
+#voice #box {
+    position: absolute;
+    left: 87px;
+    top: -3px;
+    border-radius: 10px 10px;
+    border: solid;
+    width: 22px;
+    height: 22px;
+    background-color: red;
+}
+
+#voice #circle {
+    position: absolute;
+    left: 76.5px;
+    top: -13.5px;
+    display: block;
+    height: 42px;
+    width: 42px;
+    background-color: black;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+}
+
+#translate {
+    display: none;
+    position: absolute;
+    top: 170px;
+    left: 37em;
+}
+
+#translate p {
+    font-size: small;
+    width: 120px;
+}
+
+#translate p span {
+    font-size: smaller;
+}
+
+#french {
+    color: rgb(49, 228, 228);
+}
+
+#line {
+    display: block;
+    width: 300px;
+    height: 1px;
+    border-radius: 50px;
+    position: absolute;
+    top: 50px;
+    left: -20px;
+    background-color: rgb(49, 228, 228);
+    opacity: 0.2;
+}
+
+#boxLang {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 2px 2px;
+    position: absolute;
+    top: 71px;
+    left: 232px;
+    background-color: rgb(49, 228, 228);
+}
+
+#circleLang {
+    display: block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: absolute;
+    top: 58px;
+    left: 220px;
+    background-color: rgb(49, 228, 228);
+    opacity: 0.2;
+}
+
+#magnifier {
+    display: none;
+    position: absolute;
+    right: -418px;
+    top: 180px;
+}
+
+#magImg {
+    position: absolute;
+    left: -10px;
+    top: 32px;
+    width: 180px;
+    height: 130px;
+    border-radius: 20px 20px;
+}
+
+#shortcut {
+    display: none;
+}
+
+#shortcut p{
+    position: absolute;
+    top: 210px;
+    right: -605px;
+    width: 200px;
+    color: rgb(116, 112, 112);
+    border-radius: 20px 20px;
+    background-color: white;
+    padding: 20px;
+}
+
+#cursor {
+    color: rgb(255, 196, 1);
+    font-family: "Poppin";
+}
+
+#cancel {
+    color: rgb(116, 112, 112);
+    position: absolute;
+    top: 310px;
+    left: 605px;
+    width: 100px;
+    padding: 7px;
+    text-align: center;
+    border-radius: 50px;
+    background-color: rgb(211, 207, 207);    
+}
+
+#done {
+    position: absolute;
+    top: 310px;
+    left: 730px;
+    background-color: rgb(255, 196, 1); 
+    padding: 7px;
+    width: 100px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+#shortcut i{
+    position: absolute;
+    top: 180px;
+    left: 641px;
+}
+#accessibility {
+    display: none;
+}
+
+#phrases {
+    position: absolute;
+    top: 240px;
+    left: 580px;
+    display: flex;
+    padding: 8px;
+    background-color: rgb(99, 91, 91);
+    border-radius: 50px;
+    font-family: 'Poppin', arial;
+    font-size: small;
+    text-align: center;
+}
+
+#contact {
+    position: absolute;
+    width: 250px;
+    left: 580px;
+    top: 270px;
+}
+
+#con {
+    position: absolute;
+    top: -6px;
+    font-family: 'Poppin';
+    font-size: x-large;
+    left: 210px;
+}
+
+#cross {
+    position: absolute;
+    top: 240px;
+    left: 840px;
+    background-color: rgb(99, 91, 91);
+    padding: 7px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    text-align: center;
+    font-family: 'Poppin', arial;
+}
+    
+#access {
+    position: absolute;
+    left: 635px;
+    top: 180px;
+}
+
+#keyboard {
+    position: absolute;
+    left: 785px;
+    top: 180px;
+}
+
+/*Action*/
+#action ul li i {
+    opacity: 0.4;
+    padding: 12px;
+}
+
+#action ul li {
+    list-style: none;
+    width: fit-content;
+    text-align: left;
+    text-justify: center;
+    padding: 5px;
+    height: fit-content;
+    color: var(--action);
+    transition: 0.5s;
+    border-radius: 50px;
+    font-size: medium;
+    margin-bottom: 4px;
+}
+
+.line {
+    width: 5px;
+    height: 27em;
+    background-color: white;
+    border-radius: 50px;
+    position: absolute;
+    top: 23.5%;
+    left: 80%;
+    animation: display 5s linear infinite;
+    animation-delay: 2s;
+}
+
+@keyframes display {
+    0%, 10%, 50% {
+        background-color: white;
+    }
+
+    60%, 70%, 80% {
+        background-color: var(--maincolor);
+    }
+
+    75%, 81% {
+        background-color: var(--maincolor);
+    }
+}
+
+/* Help */
+#help {
+    color: white;
+    position: absolute;
+    top: 220%;
+    left: 70px;
+}
+
+#support, #information {
+    margin-top: 20px;
+    margin-left: 130px;
+    justify-content: center;
+    float: left;
+    width: 300px;
+    margin-right: 50px;
+    border: 2px solid white;
+    padding: 50px;
+    border-radius: 30px 30px;
+    text-align: center;
+    animation: borderbox 3s infinite linear;
+    animation-delay: 2s;
+}
+
+#information p a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 0 0 5px var(--maincolor);
+}
+
+#support i, #information i {
+    text-shadow: 0 0 5px var(--maincolor);
+}
+
+@keyframes borderbox {
+    0%, 10%, 50% {
+        border: 2px solid white;
+    }
+
+    60%, 70%, 80% {
+        border: 2px solid var(--maincolor);
+    }
+
+    75%, 81% {
+        border: 2px solid var(--maincolor);
+    }
+}
+
+/* Blog */
+#blog {
+    position: absolute;
+    top: 275%;
+    left: 70px;
+    color: white; 
+}
+
+#A17 ul li, #CAMPRO ul li, #BAT ul li {
+    list-style: none;
+    text-align: left;
+    margin-top: 10px;
+}
+
+#A17, #CAMPRO, #BAT {
+    width: 300px;
+    height: 500px;
+    float: left;
+    text-align: center;
+    margin-left: 85px;
+    margin-top: 20px;
+    border: 2px solid white;
+    border-radius: 20px 20px;
+}
+
+#A17 {
+    background-image: url(images/blogA17.png);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 1s;
+    background-position-y: 500px;
+    opacity: 0.5;
+}
+
+#A17:hover {
+    background-size: 200px;
+    background-position: center;
+    box-shadow: 0 0 20px var(--maincolor);
+    opacity: 1;
+}
+
+#CAMPRO {
+    background-image: url(images/blogCamPro.png);
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+    transition: 1s;
+    background-position-y: 500px;
+}
+
+#CAMPRO:hover {
+    background-size: 300px;
+    background-position: center;
+    box-shadow: 0 0 20px var(--maincolor);
+    opacity: 1;
+}
+
+#BAT {
+    background-image: url(images/blogCharge.png);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 500px;
+    opacity: 0.5;
+    transition: 1s;
+}
+
+#blogBAT {
+    margin-top: 110px;
+}
+
+#BAT:hover {
+    opacity: 1;
+    box-shadow: 0 0 20px var(--maincolor);
+    background-position: bottom;
+}
+
+/* Social Media */
+#social {
+    color: white;
+    position: absolute;
+    top: 380%;
+    left: 70px;
+}
+
+#social p a i {
+    font-size: 30px;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 250%;
+    transition: 0.5s;
+}
+
+#social p a i:hover {
+    color: var(--maincolor);
+    transform: translateY(-5px);
+}
+
+#github {
+    position: absolute;
+    top: 26%;
+    left: 280%;
+}
+
+#linkedin {
+    position: absolute;
+    top: 53.5%;
+    left: 280%;
+}
+
+#portfolio {
+    position: absolute;
+    top: 82%;
+    left: 280%;
+}
+
+#socialImg {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    width: fit-content;
+    height: 350px;
+    border-radius: 20px 20px;
+}
+
+/* Media */
+#menu nav .fa-xmark, #menu nav .fa-bars {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    /*Top bar menu*/
+    #menu nav .fa-xmark, #menu nav .fa-bars {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    nav ul {
+        width: 100%;
+        background-color: var(--maincolor);
+        position: fixed;
+        top: -55px;
+        left: 0;
+        z-index: 2;
+        transition: top 0.5s;
+    }
+
+    ul li a {
+        font-size: 10px;
+    }
+
+    ul li a:hover {
+        color: aqua;
+    }
+
+    #menu nav .fa-bars {
+        position: absolute;
+        top: 10px;
+        right: 50px;
+    }
+
+    /* Home */
+    #header p {
+        margin-left: 150px;
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
+
+    #header h1 {
+        margin-left: 115px;
+        font-size: 20px;
+        width: 40%;
+    }
+
+    /* Mobile phone */
+    #header img {
+        position: absolute;
+        top: 200px;
+        right: 25px;
+        width: 40%;
+        height: auto;
+    }
+
+    #camera {
+        position: absolute;
+        top: 210px;
+        right: 95px;
+        width: 12%;
+    }
+
+    #camera-lense {
+        position: absolute;
+        top: 214px;
+        right: 100px;
+        width: 7px;
+        height: 7px;
+    }
+
+    #clock {
+        position: absolute;
+        top: 260px;
+        right: 50px;
+    }
+
+    #date {
+        position: absolute;
+        top: 240px;
+        right: 92px;
+    }
+
+    /* Details */
+    #chip {
+        position: absolute;
+        top: 200px;
+        left: 55px;
+    }
+
+    #camPro {
+        position: absolute;
+        top: 400px;
+        left: 50px;
+    }
+
+    #battery {
+        position: absolute;
+        top: 600px;
+        left: 20px;
+    }
+
+    /* Features */
+    #intro {
+        font-size: 15px;
+        margin-left: 35px;
+        margin-top: 35px;
+    }
+
+    #action ul {
+        position: absolute;
+        left: -100px;
+    }
+
+    #action ul li {
+        font-size: 10px;
+    }
+
+    .line {
+        position: absolute;
+        top: 160px;
+        left: 50px;
+        width: 1px;
+        height: 360px;
+    }
+
+    #imgDisplay {
+        position: absolute;
+        top: 180px;
+        left: 50px;
+        width: auto;
+        height: 350px;
+    }
+
+    /* Container */
+    #container {
+        position: absolute;
+        top: 225px;
+        left: 120px;
+        width: 80%;
+        height: 25px;
+    }
+
+    #container1 {
+        position: absolute;
+        top: 225px;
+        left: 150px;
+        width: 60%;
+        height: 25px;
+    }
+
+    #container2 {
+        position: absolute;
+        top: 225px;
+        left: 110px;
+        width: 90%;
+        height: 50%;
+    }
+
+    #container3 {
+        position: absolute;
+        top: 225px;
+        left: 110px;
+        width: 90%;
+        height: 80%;
+    }
+
+    #container4 {
+        position: absolute;
+        top: 260px;
+        left: 110px;
+        width: 90%;
+        height: 90%;
+    }
+
+    #container5 {
+        position: absolute;
+        top: 260px;
+        left: 110px;
+        width: 230px;
+    }
+
+    /* Elements */
+    #silent {
+        position: absolute;
+        top: 232px;
+        left: 265px;
+        font-size: 12px;
+    }
+
+    #focus {
+        position: absolute;
+        top: 232px;
+        left: 265px;
+        font-size: 12px;
+    }
+
+    #cam {
+        position: absolute;
+        left: 160px;
+        top: 230px;
+    }
+
+    #flashlight {
+        position: absolute;
+        left: 160px;
+        top: 230px;
+    }
+
+    #voice {
+        position: absolute;
+        left: 215px;
+        top: 242px;
+        font-size: 13px;
+    }
+
+    #voice i {
+        position: absolute;
+        left: -90px;
+    }
+
+    #translate {
+        position: absolute;
+        left: 130px;
+        top: 220px;
+    }
+
+    #translate p {
+        font-size: 12px;
+    }
+
+    #line {
+        position: absolute;
+        top: 47px;
+        left: 0px;
+        width: 190px;
+    }
+
+    #boxLang {
+        position: absolute;
+        top: 65px;
+        left: 170px;
+    }
+
+    #circleLang {
+        position: absolute;
+        top: 52px;
+        left: 158px;
+    }
+
+    #magnifier {
+        position: absolute;
+        left: 160px;
+        top: 230px;
+    }
+
+    #magImg {
+        position: absolute;
+        width: 150px;
+        height: 100px;
+        top: 25px;
+    }
+
+    #shortcut p {
+        position: absolute;
+        font-size: 10px;
+        width: 150px;
+        top: 260px;
+        left: 132px; 
+    }
+
+    #cancel {
+        position: absolute;
+        top: 325px;
+        left: 132px; 
+        font-size: 10px;
+        width: 75px;
+    }
+
+    #done {
+        position: absolute;
+        top: 325px;
+        left: 230px; 
+        font-size: 10px;
+        width: 75px;
+    }
+
+    #shortcut i {
+        position: absolute;
+        top: 230px;
+        left: 160px;
+    }
+
+    #phrases {
+        position: absolute;
+        top: 270px;
+        left: 120px;
+        font-size: 10px;
+    }
+
+    #contact {
+        position: absolute;
+        top: 300px;
+        left: 120px;
+        font-size: 10px;
+    }
+
+    #con {
+        font-size: 20px;
+        position: absolute;
+        left: 150px;
+    }
+
+    #cross {
+        position: absolute;
+        top: 270px;
+        left: 300px;
+    }
+
+    #access {
+        position: absolute;
+        top: 230px;
+        left: 160px;
+    }
+
+    #keyboard {
+        position: absolute;
+        top: 230px;
+        left: 280px;
+    }
+
+    /* Help */
+    #help {
+        position: absolute;
+        top: 200%;
+        margin-left: 50px;
+        margin-top: 40px;
+    }
+
+    #support, #information {
+        margin-left: -75px;
+        margin-top: 35px;
+    }
+
+    /* Blog */
+    #blog {
+        position: absolute;
+        top: 300%;
+        margin-left: 140px;
+    }
+
+    #A17, #CAMPRO, #BAT {
+        width: 130%;
+        margin-left: -140px;
+    }
+
+    /* Social Media */
+    #social {
+        position: absolute;
+        top: 560%;
+        margin-left: 95px;
+    }
+
+    #socialImg {
+        /* display: none; */
+        position: absolute;
+        left: 0;
+        top: 100px;
+        margin-top: 15px;
+        margin-left: -40px;
+    }
+
+    #github {
+        position: absolute;
+        top: 650%;
+        left: 0;
+        margin-left: -40px;
+    }
+    
+    #linkedin {
+        position: absolute;
+        top: 650%;
+        left: 58px;
+    }
+    
+    #portfolio {
+        position: absolute;
+        top: 650%;
+        left: 165px;
+    }
+
+    .fa-github {
+        position: absolute;
+        top: 560%;
+        left: -267%;
+    }
+
+    .fa-linkedin {
+        position: absolute;
+        top: 560%;
+        left: -210%;
+    }
+
+    .fa-info {
+        position: absolute;
+        top: 560%;
+        left: -147%;
+    }
+
+}
