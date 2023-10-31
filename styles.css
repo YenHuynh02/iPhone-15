@@ -795,7 +795,7 @@ ul li a:hover {
     display: none;
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 600px) {
     /*Top bar menu*/
     #menu nav .fa-xmark, #menu nav .fa-bars {
         display: inline-block;
@@ -1138,14 +1138,11 @@ ul li a:hover {
 
     /* Blog */
     #blog {
-        position: absolute;
-        top: 300%;
-        margin-left: 140px;
+        padding: 70px 150px 10px;
     }
 
     #A17, #CAMPRO, #BAT {
-        width: 130%;
-        margin-left: -140px;
+        margin: 0 -120px 40px;
     }
 
     /* Social Media */
@@ -1156,7 +1153,6 @@ ul li a:hover {
     }
 
     #socialImg {
-        /* display: none; */
         position: absolute;
         left: 0;
         top: 100px;
