@@ -795,7 +795,7 @@ ul li a:hover {
     display: none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 414px) {
     /*Top bar menu*/
     #menu nav .fa-xmark, #menu nav .fa-bars {
         display: inline-block;
@@ -1156,6 +1156,7 @@ ul li a:hover {
     }
 
     #socialImg {
+        /* display: none; */
         position: absolute;
         left: 0;
         top: 100px;
