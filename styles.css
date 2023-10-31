@@ -813,7 +813,7 @@ ul li a:hover {
     }
 
     ul li a {
-        font-size: 11px;
+        font-size: 12px;
     }
 
     ul li a:hover {
@@ -828,22 +828,21 @@ ul li a:hover {
 
     /* Home */
     #header p {
-        margin: 0 150px 20px;
+        margin: 0 180px 20px;
         font-size: 10px;
+        width: 20%;
     }
 
     #header h1 {
-        margin-left: 115px;
+        margin: 0 150px 20px;
         font-size: 20px;
         width: 60%;
     }
 
     /* Mobile phone */
     #header img {
-        position: absolute;
-        top: 200px;
-        right: 25px;
-        width: 40%;
+        margin: 60px -35px 0 0;
+        width: 45%;
         height: auto;
     }
 
