@@ -841,36 +841,27 @@ ul li a:hover {
 
     /* Mobile phone */
     #header img {
-        margin: 60px -35px 0 0;
+        margin: 60px -60px 0 0;
         width: 45%;
         height: auto;
     }
 
     #camera {
-        position: absolute;
-        top: 210px;
-        right: 95px;
-        width: 12%;
+        margin: 60px -10px 0 0;
+        width: 15%;
     }
 
     #camera-lense {
-        position: absolute;
-        top: 214px;
-        right: 100px;
+        margin: 62px -5px 0 0;
         width: 7px;
-        height: 7px;
     }
 
     #clock {
-        position: absolute;
-        top: 260px;
-        right: 50px;
+        margin: 60px -35px 0 0;
     }
 
     #date {
-        position: absolute;
-        top: 240px;
-        right: 92px;
+        margin: 60px -10px 0 0;
     }
 
     /* Details */
