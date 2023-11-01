@@ -128,14 +128,6 @@ ul li a:hover {
     color: var(--maincolor);
 }
 
-#phone {
-    color: transparent;
-    position: absolute;
-    right: 22%;
-    bottom: 12%;
-    border-radius: 50%;
-}
-
 /*Details*/
 #chip {
     color: white;
@@ -457,6 +449,7 @@ ul li a:hover {
     display: none;
     position: absolute;
     top: 95px;
+    left: 645px;
     font-size: 10px;
 }
 
@@ -1163,17 +1156,25 @@ ul li a:hover {
 
     /* Blog */
     #blog {
-        padding: 70px 150px 10px;
+        position: absolute;
+        top: 300%;
+        width: 0px;
+    }
+
+    #blog h1 {
+        position: absolute;
+        left: 115px;
     }
 
     #A17, #CAMPRO, #BAT {
-        margin: 0 -120px 40px;
+        margin-top: 100px;
+        margin-left: -15px;
     }
 
     /* Social Media */
     #social {
-        margin-top: 1200px;
-        margin-left: 90px;
+        margin-top: 1500px;
+        margin-left: 50px;
     }
 
     #social h1 {
