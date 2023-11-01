@@ -1129,7 +1129,7 @@ ul li a:hover {
     /* Social Media */
     #social {
         position: absolute;
-        top: 490%;
+        top: 500%;
         margin: 0 0 0 90px;
     }
 
@@ -1163,19 +1163,19 @@ ul li a:hover {
     .fa-github {
         position: absolute;
         top: 560%;
-        left: -259%;
+        left: -267%;
     }
 
     .fa-linkedin {
         position: absolute;
         top: 560%;
-        left: -229%;
+        left: -209%;
     }
 
     .fa-info {
         position: absolute;
         top: 560%;
-        left: -190%;
+        left: -145%;
     }
 
 }
