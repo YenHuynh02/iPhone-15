@@ -1145,7 +1145,7 @@ ul li a:hover {
 
     #support {
         position: absolute;
-        left: -150px;
+        left: -160px;
         width: 160px;
         height: 120px;
     }
@@ -1153,7 +1153,7 @@ ul li a:hover {
     #information {
         position: absolute;
         top: 350px;
-        left: -150px;
+        left: -160px;
         width: 160px;
         height: 120px;
     }
