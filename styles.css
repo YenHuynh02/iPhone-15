@@ -839,27 +839,27 @@ ul li a:hover {
 
     /* Mobile phone */
     #header img {
-        margin: 60px -90px 0 0;
+        margin: 100px -90px 0 0;
         width: 50%;
         height: auto;
     }
 
     #camera {
-        margin: 60px -40px 0 0;
+        margin: 100px -40px 0 0;
         width: 15%;
     }
 
     #camera-lense {
-        margin: 62px -35px 0 0;
+        margin: 100px -35px 0 0;
         width: 7px;
     }
 
     #clock {
-        margin: 60px -65px 0 0;
+        margin: 100px -65px 0 0;
     }
 
     #date {
-        margin: 60px -40px 0 0;
+        margin: 100px -40px 0 0;
     }
 
     /* Details */
@@ -1107,7 +1107,7 @@ ul li a:hover {
     /* Help */
     #help {
         position: absolute;
-        top: 200%;
+        top: 185%;
         margin-left: 50px;
         margin-top: 40px;
     }
@@ -1128,9 +1128,8 @@ ul li a:hover {
 
     /* Social Media */
     #social {
-        position: absolute;
-        top: 560%;
-        margin-left: 95px;
+        margin: 200% 90px 0 ;
+        width: 40%;
     }
 
     #socialImg {
