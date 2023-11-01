@@ -220,9 +220,9 @@ ul li a:hover {
 
 #imgDisplay {
     position: absolute;
-    top: 18%;
-    left: 30em;
-    height: 30em;
+    top: 10%;
+    left: 575px;
+    height: 35em;
     width: auto;
     opacity: 0.7;
 }
@@ -231,10 +231,10 @@ ul li a:hover {
 #container {
     display: none;
     position: absolute;
-    top: 170px;
-    left: 37em;
-    width: 110%;
-    height: 35px;
+    top: 85px;
+    left: 38.5em;
+    width: 80%;
+    height: 30px;
     background-color: var(--boxcolor);
     border-radius: 50px;
     box-shadow: 0 0 10px var(--maincolor);
@@ -243,10 +243,10 @@ ul li a:hover {
 #container1 {
     display: none;
     position: absolute;
-    top: 170px;
-    left: 39em;
-    width: 80%;
-    height: 35px;
+    top: 85px;
+    left: 39.5em;
+    width: 70%;
+    height: 30px;
     background-color: var(--boxcolor);
     border-radius: 50px;
     box-shadow: 0 0 10px var(--maincolor);
@@ -255,10 +255,10 @@ ul li a:hover {
 #container2 {
     display: none;
     position: absolute;
-    top: 170px;
-    left: 37em;
-    width: 110%;
-    height: 60px;
+    top: 85px;
+    left: 38.5em;
+    width: 85%;
+    height: 50px;
     background-color: var(--boxcolor);
     border-radius: 50px;
     box-shadow: 0 0 10px var(--maincolor);
@@ -267,9 +267,9 @@ ul li a:hover {
 #container3 {
     display: none;
     position: absolute;
-    top: 170px;
-    left: 34.5em;
-    width: 140%;
+    top: 85px;
+    left: 38em;
+    width: 90%;
     height: 100px;
     background-color: var(--boxcolor);
     border-radius: 30px 30px;
@@ -279,10 +279,10 @@ ul li a:hover {
 #container4 {
     display: none;
     position: absolute;
-    top: 210px;
-    left: 35.5em;
-    width: 130%;
-    height: 145px;
+    top: 130px;
+    left: 38em;
+    width: 90%;
+    height: 120px;
     background-color: white;
     border-radius: 30px 30px;
     box-shadow: 0 0 10px var(--maincolor);
@@ -292,9 +292,9 @@ ul li a:hover {
 #container5 {
     display: none;
     position: absolute;
-    top: 230px;
-    left: 35.5em;
-    width: 130%;
+    top: 130px;
+    left: 38em;
+    width: 90%;
     height: 90px;
     background-color: var(--boxcolor);
     border-radius: 25px 25px;
@@ -310,45 +310,49 @@ ul li a:hover {
 #silent {
     display: none;
     position: absolute;
-    top: 180px;
-    left: 50em;
+    top: 95px;
+    left: 75em;
     width: 50px;
     height: fit-content;
     color: red;
+    font-size: 10px;
 }
 
 #silent i {
     position: absolute;
-    right: 14em;
+    right: 16em;
 }
 
 #focus {
     display: none;
     position: absolute;
-    top: 180px;
-    left: 49em;
+    top: 95px;
+    left: 75em;
     width: 50px;
     height: fit-content;
     color: rgb(128, 107, 223);
+    font-size: 10px;
 }
 
 #focus i {
     position: absolute;
-    right: 11.5em;
+    right: 14em;
 }
 
 #cam {
     display: none;
     position: absolute;
-    top: 180px;
-    left: 40em;
+    top: 95px;
+    left: 65em;
+    font-size: 10px;
 }
 
 #flashlight {
     display: none;
     position: absolute;
-    top: 180px;
-    left: 40em;
+    top: 95px;
+    left: 65em;
+    font-size: 10px;
 }
 
 #flashlight i {
@@ -359,24 +363,25 @@ ul li a:hover {
 #voice {
     display: none;
     position: absolute;
-    top: 190px;
-    left: 45em;
+    top: 105px;
+    left: 70em;
     color: red;
+    font-size: 10px;
 }
 
 #voice i {
     position: absolute;
-    left: -100px;
+    left: -70px;
 }
 
 #voice #box {
     position: absolute;
     left: 87px;
     top: -3px;
-    border-radius: 10px 10px;
+    border-radius: 5px 5px;
     border: solid;
-    width: 22px;
-    height: 22px;
+    width: 15px;
+    height: 15px;
     background-color: red;
 }
 
@@ -385,8 +390,8 @@ ul li a:hover {
     left: 76.5px;
     top: -13.5px;
     display: block;
-    height: 42px;
-    width: 42px;
+    height: 35px;
+    width: 35px;
     background-color: black;
     border-radius: 50%;
     border-style: solid;
@@ -396,12 +401,12 @@ ul li a:hover {
 #translate {
     display: none;
     position: absolute;
-    top: 170px;
-    left: 37em;
+    top: 100px;
+    left: 63em;
+    font-size: 10px;
 }
 
 #translate p {
-    font-size: small;
     width: 120px;
 }
 
@@ -415,35 +420,35 @@ ul li a:hover {
 
 #line {
     display: block;
-    width: 300px;
+    width: 180px;
     height: 1px;
     border-radius: 50px;
     position: absolute;
-    top: 50px;
-    left: -20px;
+    top: 39px;
+    left: -5px;
     background-color: rgb(49, 228, 228);
     opacity: 0.2;
 }
 
 #boxLang {
     display: block;
-    width: 10px;
-    height: 10px;
-    border-radius: 2px 2px;
+    width: 5px;
+    height: 5px;
+    border-radius: 1px 1px;
     position: absolute;
-    top: 71px;
-    left: 232px;
+    top: 55px;
+    left: 150px;
     background-color: rgb(49, 228, 228);
 }
 
 #circleLang {
     display: block;
-    width: 35px;
-    height: 35px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
     position: absolute;
-    top: 58px;
-    left: 220px;
+    top: 47px;
+    left: 142.5px;
     background-color: rgb(49, 228, 228);
     opacity: 0.2;
 }
@@ -452,12 +457,13 @@ ul li a:hover {
     display: none;
     position: absolute;
     right: -418px;
-    top: 180px;
+    top: 95px;
+    font-size: 10px;
 }
 
 #magImg {
     position: absolute;
-    left: -10px;
+    left: -20px;
     top: 32px;
     width: 180px;
     height: 130px;
@@ -466,13 +472,14 @@ ul li a:hover {
 
 #shortcut {
     display: none;
+    font-size: 10px;
 }
 
 #shortcut p{
     position: absolute;
-    top: 210px;
-    right: -605px;
-    width: 200px;
+    top: 130px;
+    right: -555px;
+    width: 120px;
     color: rgb(116, 112, 112);
     border-radius: 20px 20px;
     background-color: white;
@@ -487,71 +494,72 @@ ul li a:hover {
 #cancel {
     color: rgb(116, 112, 112);
     position: absolute;
-    top: 310px;
-    left: 605px;
-    width: 100px;
+    top: 210px;
+    left: 635px;
+    width: 60px;
     padding: 7px;
     text-align: center;
     border-radius: 50px;
-    background-color: rgb(211, 207, 207);    
+    background-color: rgb(161, 156, 156);    
 }
 
 #done {
     position: absolute;
-    top: 310px;
-    left: 730px;
+    top: 210px;
+    left: 720px;
     background-color: rgb(255, 196, 1); 
     padding: 7px;
-    width: 100px;
+    width: 60px;
     text-align: center;
     border-radius: 50px;
 }
 
 #shortcut i{
     position: absolute;
-    top: 180px;
-    left: 641px;
+    top: 95px;
+    left: 645px;
 }
+
 #accessibility {
     display: none;
+    font-size: 10px;
 }
 
 #phrases {
     position: absolute;
-    top: 240px;
-    left: 580px;
+    top: 140px;
+    left: 620px;
     display: flex;
     padding: 8px;
     background-color: rgb(99, 91, 91);
     border-radius: 50px;
     font-family: 'Poppin', arial;
-    font-size: small;
     text-align: center;
 }
 
 #contact {
     position: absolute;
     width: 250px;
-    left: 580px;
-    top: 270px;
+    left: 625px;
+    top: 175px;
 }
 
 #con {
     position: absolute;
     top: -6px;
     font-family: 'Poppin';
-    font-size: x-large;
-    left: 210px;
+    font-size: large;
+    left: 150px;
 }
 
 #cross {
     position: absolute;
-    top: 240px;
-    left: 840px;
+    top: 140px;
+    left: 780px;
     background-color: rgb(99, 91, 91);
     padding: 7px;
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
     text-align: center;
     font-family: 'Poppin', arial;
@@ -559,14 +567,14 @@ ul li a:hover {
     
 #access {
     position: absolute;
-    left: 635px;
-    top: 180px;
+    left: 640px;
+    top: 95px;
 }
 
 #keyboard {
     position: absolute;
-    left: 785px;
-    top: 180px;
+    left: 775px;
+    top: 95px;
 }
 
 /*Action*/
@@ -865,14 +873,17 @@ ul li a:hover {
     /* Details */
     #chip {
         margin: 60px 0 0 -180px;
+        font-size: 10px;
     }
 
     #camPro {
-        margin: 60px -40px 0 -185px;
+        margin: 60px -40px 0 -180px;
+        font-size: 10px;
     }
 
     #battery {
-        margin: 60px -40px 0 -210px;
+        margin: 60px -40px 0 -190px;
+        font-size: 10px;
     }
 
     /* Features */
@@ -901,132 +912,152 @@ ul li a:hover {
 
     #imgDisplay {
         position: absolute;
-        top: 180px;
-        left: 50px;
+        top: 165px;
+        left: 125px;
         width: auto;
-        height: 350px;
+        height: 25em;
     }
 
     /* Container */
     #container {
         position: absolute;
-        top: 225px;
-        left: 120px;
-        width: 80%;
-        height: 25px;
+        top: 180px;
+        left: 155px;
+        width: 55%;
+        height: 20px;
     }
 
     #container1 {
         position: absolute;
-        top: 225px;
-        left: 150px;
-        width: 60%;
-        height: 25px;
+        top: 180px;
+        left: 160px;
+        width: 50%;
+        height: 20px;
     }
 
     #container2 {
         position: absolute;
-        top: 225px;
-        left: 110px;
-        width: 90%;
-        height: 45%;
+        top: 180px;
+        left: 155px;
+        width: 55%;
+        height: 40px;
     }
 
     #container3 {
         position: absolute;
-        top: 225px;
-        left: 110px;
-        width: 90%;
-        height: 80%;
+        top: 180px;
+        left: 145px;
+        width: 60%;
+        height: 70px;
+        border-radius: 20px 20px;
     }
 
     #container4 {
         position: absolute;
-        top: 260px;
-        left: 110px;
-        width: 90%;
+        top: 210px;
+        left: 145px;
+        width: 60%;
         height: 80%;
+        border-radius: 20px 20px;
     }
 
     #container5 {
         position: absolute;
-        top: 260px;
-        left: 110px;
-        width: 230px;
+        top: 210px;
+        left: 145px;
+        width: 60%;
     }
 
     /* Elements */
     #silent {
         position: absolute;
-        top: 232px;
+        top: 185px;
         left: 265px;
-        font-size: 12px;
+        font-size: 9px;
     }
 
     #focus {
         position: absolute;
-        top: 232px;
+        top: 185px;
         left: 265px;
-        font-size: 12px;
+        font-size: 9px;
     }
 
     #cam {
         position: absolute;
-        left: 160px;
-        top: 230px;
+        left: 170px;
+        top: 185px;
+        font-size: 9px;
     }
 
     #flashlight {
         position: absolute;
-        left: 160px;
-        top: 230px;
+        left: 170px;
+        top: 185px;
+        font-size: 9px;
     }
 
     #voice {
         position: absolute;
         left: 215px;
-        top: 242px;
-        font-size: 13px;
+        top: 195px;
+        font-size: 9px;
     }
 
     #voice i {
         position: absolute;
-        left: -90px;
+        left: -50px;
+    }
+
+    #voice #box {
+        position: absolute;
+        width: 7px;
+        height: 7px;
+        border-radius: 3px 3px;
+        left: 55px;
+    }
+
+    #voice #circle {
+        position: absolute;
+        left: 45px;
+        width: 27px;
+        height: 27px;
     }
 
     #translate {
         position: absolute;
-        left: 130px;
-        top: 220px;
+        left: 160px;
+        top: 180px;
     }
 
     #translate p {
-        font-size: 12px;
+        font-size: 9px;
     }
 
     #line {
         position: absolute;
-        top: 47px;
+        top: 35px;
         left: 0px;
-        width: 190px;
+        width: 120px;
     }
 
     #boxLang {
         position: absolute;
-        top: 65px;
-        left: 170px;
+        top: 50px;
+        left: 115px;
     }
 
     #circleLang {
         position: absolute;
-        top: 52px;
-        left: 158px;
+        top: 42px;
+        left: 107px;
     }
 
     #magnifier {
         position: absolute;
-        left: 160px;
-        top: 230px;
+        left: 170px;
+        top: 185px;
+        font-size: 9px;
     }
 
     #magImg {
@@ -1036,72 +1067,76 @@ ul li a:hover {
         top: 25px;
     }
 
+    #shortcut {
+        font-size: 9px;
+    }
+
     #shortcut p {
         position: absolute;
-        font-size: 10px;
-        width: 150px;
-        top: 260px;
-        left: 132px; 
+        width: 90px;
+        top: 205px;
+        left: 156px; 
+
     }
 
     #cancel {
         position: absolute;
-        top: 325px;
-        left: 132px; 
-        font-size: 10px;
-        width: 75px;
+        top: 280px;
+        left: 155px;
+        width: 50px;
     }
 
     #done {
         position: absolute;
-        top: 325px;
-        left: 230px; 
-        font-size: 10px;
-        width: 75px;
+        top: 280px;
+        left: 225px; 
+        width: 50px;
     }
 
     #shortcut i {
         position: absolute;
-        top: 230px;
-        left: 160px;
+        top: 185px;
+        left: 170px;
+    }
+
+    #accessibility {
+        font-size: 9px;
     }
 
     #phrases {
         position: absolute;
-        top: 270px;
-        left: 120px;
-        font-size: 10px;
+        top: 215px;
+        left: 155px;
     }
 
     #contact {
         position: absolute;
-        top: 300px;
-        left: 120px;
-        font-size: 10px;
+        top: 250px;
+        left: 155px;
     }
 
     #con {
         font-size: 20px;
         position: absolute;
-        left: 150px;
+        left: 120px;
     }
 
     #cross {
         position: absolute;
-        top: 270px;
-        left: 300px;
+        top: 215px;
+        left: 260px;
     }
 
     #access {
         position: absolute;
-        top: 230px;
-        left: 160px;
+        top: 185px;
+        left: 170px;
     }
 
     #keyboard {
         position: absolute;
-        top: 230px;
-        left: 280px;
+        top: 185px;
+        left: 270px;
     }
 
     /* Help */
