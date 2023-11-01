@@ -1128,9 +1128,7 @@ ul li a:hover {
 
     /* Social Media */
     #social {
-        position: absolute;
-        top: 520%;
-        margin: 0 0 0 90px;
+        margin: 900px 0 0 90px;
     }
 
     #social h1 {
