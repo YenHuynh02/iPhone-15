@@ -807,7 +807,7 @@ ul li a:hover {
         background-color: var(--maincolor);
         position: fixed;
         top: -55px;
-        left: -50px;
+        left: -110px;
         z-index: 2;
         transition: top 0.5s;
     }
@@ -821,18 +821,18 @@ ul li a:hover {
     }
 
     #menu nav .fa-bars {
-        margin: 10px 0 0 400px;
+        margin: 10px 0 0 355px;
     }
 
     /* Home */
     #header p {
-        margin: 0 180px 20px;
+        margin: 0 160px 20px;
         font-size: 10px;
         width: 20%;
     }
 
     #header h1 {
-        margin: 0 140px 20px;
+        margin: 0 120px 20px;
         font-size: 20px;
         width: 60%;
     }
@@ -845,21 +845,21 @@ ul li a:hover {
     }
 
     #camera {
-        margin: 100px -40px 0 0;
+        margin: 100px 15px 0 0;
         width: 15%;
     }
 
     #camera-lense {
-        margin: 100px -35px 0 0;
+        margin: 102px 20px 0 0;
         width: 7px;
     }
 
     #clock {
-        margin: 100px -65px 0 0;
+        margin: 100px -10px 0 0;
     }
 
     #date {
-        margin: 100px -40px 0 0;
+        margin: 100px 25px 0 0;
     }
 
     /* Details */
