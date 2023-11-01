@@ -241,7 +241,7 @@ ul li a:hover {
 }
 
 #container1 {
-    display: block;
+    display: none;
     position: absolute;
     top: 170px;
     left: 39em;
@@ -253,7 +253,7 @@ ul li a:hover {
 }
 
 #container2 {
-    display: none;
+    display: block;
     position: absolute;
     top: 170px;
     left: 37em;
@@ -357,7 +357,7 @@ ul li a:hover {
 }
 
 #voice {
-    display: none;
+    display: block;
     position: absolute;
     top: 190px;
     left: 45em;
@@ -864,21 +864,15 @@ ul li a:hover {
 
     /* Details */
     #chip {
-        position: absolute;
-        top: 200px;
-        left: 55px;
+        margin: 60px 0 0 -180px;
     }
 
     #camPro {
-        position: absolute;
-        top: 400px;
-        left: 50px;
+        margin: 60px -40px 0 -185px;
     }
 
     #battery {
-        position: absolute;
-        top: 600px;
-        left: 20px;
+        margin: 60px -40px 0 -210px;
     }
 
     /* Features */
@@ -935,7 +929,7 @@ ul li a:hover {
         top: 225px;
         left: 110px;
         width: 90%;
-        height: 50%;
+        height: 45%;
     }
 
     #container3 {
@@ -951,7 +945,7 @@ ul li a:hover {
         top: 260px;
         left: 110px;
         width: 90%;
-        height: 90%;
+        height: 80%;
     }
 
     #container5 {
