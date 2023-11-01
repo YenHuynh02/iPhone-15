@@ -807,7 +807,7 @@ ul li a:hover {
         background-color: var(--maincolor);
         position: fixed;
         top: -55px;
-        left: 0;
+        left: -50px;
         z-index: 2;
         transition: top 0.5s;
     }
@@ -821,7 +821,7 @@ ul li a:hover {
     }
 
     #menu nav .fa-bars {
-        margin: 10px 0 0 460px;
+        margin: 10px 0 0 400px;
     }
 
     /* Home */
