@@ -112,7 +112,7 @@ ul li a:hover {
     padding: 60px 30px 0;
     position: absolute;
     right: 10%;
-    top: 25%;
+    top: 30%;
     font-size: 50px;
     color: var(--maincolor);
 }
@@ -122,7 +122,7 @@ ul li a:hover {
     position: absolute;
     padding: 0 80px 0;
     right: 10%;
-    top: 28%;
+    top: 35%;
     font-size: 12px;
     color: var(--maincolor);
 }
@@ -805,7 +805,7 @@ ul li a:hover {
     display: none;
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 600px) {
     /*Top bar menu*/
     #menu nav .fa-xmark {
         display: flex;
@@ -841,22 +841,24 @@ ul li a:hover {
     ul li a:hover {
         color: aqua;
     }
+}
 
+@media only screen and (max-width: 1100px) {
     /* Home */
     #header p {
         display: flex;
         font-size: 10px;
         width: 20%;
         flex-wrap: wrap;
-        margin: 0 160px 0 160px;
+        margin: 0 150px 0;
     }
 
     #header h1 {
         display: flex;
         font-size: 20px;
-        width: 40%;
+        width: 50%;
         flex-wrap: wrap;
-        margin: 15px 125px 0 125px;
+        margin: 15px 115px 0;
     }
 
     /* Mobile phone */
@@ -879,23 +881,23 @@ ul li a:hover {
 
     #date {
         position: absolute;
-        top: 240px;
+        top: 290px;
         padding: 0 60px 0;
     }
 
     /* Details */
     #chip {
-        margin: 60px 50px -180px;
+        margin: 60px 100px -180px;
         font-size: 10px;
     }
 
     #camPro {
-        margin: 60px 50px -180px;
+        margin: 60px 100px -180px;
         font-size: 10px;
     }
 
     #battery {
-        margin: 60px 55px -190px;
+        margin: 60px 85px -190px;
         font-size: 10px;
     }
 
@@ -1168,7 +1170,7 @@ ul li a:hover {
         flex-basis: 30%;
         margin: 20px 20px 0 0;
         width: 40px;
-        height: 100px;
+        height: 120px;
     }
 
     /* Blog */
