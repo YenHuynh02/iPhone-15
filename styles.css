@@ -829,6 +829,7 @@ ul li a:hover {
         background-color: var(--maincolor);
         position: fixed;
         top: -60px;
+        margin-left: -40px;
         z-index: 2;
         transition: top 0.5s;
     }
