@@ -811,7 +811,6 @@ ul li a:hover {
         display: flex;
         font-size: 20px;
         flex-wrap: wrap;
-        float: right;
         margin: 10px;
         text-align: center;
     }
