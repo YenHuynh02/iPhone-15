@@ -49,7 +49,6 @@ ul li a:hover {
     letter-spacing: 3px;
     margin-top: 10%;
     margin-left: 5%;
-   
 }
 
 #header p {
@@ -75,36 +74,33 @@ ul li a:hover {
     position: absolute;
     right: 10%;
     top: 20%;
-    height: auto;
-    width: 15%;
-    display: block;
-    justify-content: right;
+    height: 65%;
+    display: flex;
     border-radius: 40px;
-    border-style: solid;
-    border-color:rgb(0, 0, 0);
-    border-width: 5px;
+    border: 5px solid rgb(0, 0, 0);
     box-shadow: 0 0 2px var(--maincolor);
-    margin-left: auto;
     animation: shadowImg 5s linear infinite;
     animation-delay: 0s;
 }
 
 #camera {
     position: absolute;
-    right: 15.5%;
-    top: 22%;
-    width: 4.5%;
+    right: 10%;
+    top: 21%;
     height: 2.3%;
+    padding: 0 25px 0;
+    margin: 0 60px 0;
     background: rgb(0, 0, 0);
     border-radius: 100px;
 }
 
 #camera-lense {
     position: absolute;
-    right: 15.7%;
-    top: 22.3%;
+    right: 10%;
+    top: 21.5%;
     width: 11px;
     height: 11px;
+    margin: 0 65px 0;
     background: linear-gradient(rgb(2, 2, 53), rgb(71, 56, 114));
     border-radius: 50%;
     box-shadow: 0 0 2px var(--maincolor);
@@ -112,9 +108,11 @@ ul li a:hover {
 
 #clock {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    padding: 60px 30px 0;
     position: absolute;
-    right: 12.5%;
-    top: 30%;
+    right: 10%;
+    top: 25%;
     font-size: 50px;
     color: var(--maincolor);
 }
@@ -122,7 +120,8 @@ ul li a:hover {
 #date {
     color: white;
     position: absolute;
-    right: 15.5%;
+    padding: 0 80px 0;
+    right: 10%;
     top: 28%;
     font-size: 12px;
     color: var(--maincolor);
@@ -134,7 +133,8 @@ ul li a:hover {
     position: absolute;
     text-align: center;
     top: 25%;
-    left: 50%;
+    right: 10%;
+    padding: 0 42% 0 0;
     animation: opacity 1s linear;
 }
 
@@ -143,7 +143,8 @@ ul li a:hover {
     position: absolute;
     text-align: center;
     top: 50%;
-    left: 49.5%;
+    padding: 0 42% 0 0;
+    right: 10%;
     animation: opacity 1s linear;
 }
 
@@ -152,8 +153,9 @@ ul li a:hover {
     position: absolute;
     text-align: center;
     top: 75%;
-    left: 47.5%;
+    right: 10%;
     animation: opacity 1s linear;
+    padding: 0 43% 0 0;
 }
 
 @keyframes SmartKey {
@@ -623,17 +625,20 @@ ul li a:hover {
     left: 70px;
 }
 
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 #support, #information {
-    margin-top: 20px;
-    margin-left: 130px;
+    flex-basis: 20%;
     justify-content: center;
-    float: left;
+    margin-left: 150px;
+    margin-top: 20px;
     width: 300px;
-    margin-right: 50px;
     border: 2px solid white;
     padding: 50px;
     border-radius: 30px 30px;
-    text-align: center;
     animation: borderbox 3s infinite linear;
     animation-delay: 2s;
 }
@@ -670,6 +675,11 @@ ul li a:hover {
     color: white; 
 }
 
+.contain {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 #A17 ul li, #CAMPRO ul li, #BAT ul li {
     list-style: none;
     text-align: left;
@@ -677,9 +687,9 @@ ul li a:hover {
 }
 
 #A17, #CAMPRO, #BAT {
+    flex-basis: 22%;
     width: 300px;
     height: 500px;
-    float: left;
     text-align: center;
     margin-left: 85px;
     margin-top: 20px;
@@ -795,19 +805,31 @@ ul li a:hover {
     display: none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1100px) {
     /*Top bar menu*/
-    #menu nav .fa-xmark, #menu nav .fa-bars {
-        display: inline-block;
+    #menu nav .fa-xmark {
+        display: flex;
         font-size: 20px;
+        flex-wrap: wrap;
+        float: right;
+        margin: 10px;
+        text-align: center;
+    }
+
+    #menu nav .fa-bars {
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        top: 10px;
+        right: 10px;
     }
 
     nav ul {
         width: 100%;
         background-color: var(--maincolor);
         position: fixed;
-        top: -55px;
-        left: -110px;
+        top: -60px;
+        margin-left: -50px;
         z-index: 2;
         transition: top 0.5s;
     }
@@ -820,61 +842,60 @@ ul li a:hover {
         color: aqua;
     }
 
-    #menu nav .fa-bars {
-        margin: 10px 0 0 355px;
-    }
-
     /* Home */
     #header p {
-        margin: 0 160px 20px;
+        display: flex;
         font-size: 10px;
         width: 20%;
+        flex-wrap: wrap;
+        margin: 0 160px 0 160px;
     }
 
     #header h1 {
-        margin: 0 120px 20px;
+        display: flex;
         font-size: 20px;
-        width: 60%;
+        width: 40%;
+        flex-wrap: wrap;
+        margin: 15px 125px 0 125px;
     }
 
     /* Mobile phone */
     #header img {
-        margin: 100px -20px 0 0;
-        width: 40%;
-        height: auto;
+        margin: 50px -20px 0 0;
     }
 
     #camera {
-        margin: 100px 15px 0 0;
-        width: 15%;
+        margin: 55px 45px 0;
     }
 
     #camera-lense {
-        margin: 102px 20px 0 0;
-        width: 7px;
+        margin: 55px 50px 0;
     }
 
     #clock {
-        margin: 100px -10px 0 0;
+        position: absolute;
+        padding: 100px 10px 0;
     }
 
     #date {
-        margin: 100px 25px 0 0;
+        position: absolute;
+        top: 240px;
+        padding: 0 60px 0;
     }
 
     /* Details */
     #chip {
-        margin: 60px 0 0 -180px;
+        margin: 60px 50px -180px;
         font-size: 10px;
     }
 
     #camPro {
-        margin: 60px -40px 0 -180px;
+        margin: 60px 50px -180px;
         font-size: 10px;
     }
 
     #battery {
-        margin: 60px -40px 0 -190px;
+        margin: 60px 55px -190px;
         font-size: 10px;
     }
 
@@ -915,7 +936,7 @@ ul li a:hover {
         position: absolute;
         top: 180px;
         left: 155px;
-        width: 55%;
+        width: 60%;
         height: 20px;
     }
 
@@ -923,7 +944,7 @@ ul li a:hover {
         position: absolute;
         top: 180px;
         left: 160px;
-        width: 50%;
+        width: 55%;
         height: 20px;
     }
 
@@ -931,7 +952,7 @@ ul li a:hover {
         position: absolute;
         top: 180px;
         left: 155px;
-        width: 55%;
+        width: 60%;
         height: 40px;
     }
 
@@ -939,7 +960,7 @@ ul li a:hover {
         position: absolute;
         top: 180px;
         left: 145px;
-        width: 60%;
+        width: 65%;
         height: 70px;
         border-radius: 20px 20px;
     }
@@ -948,7 +969,7 @@ ul li a:hover {
         position: absolute;
         top: 210px;
         left: 145px;
-        width: 60%;
+        width: 65%;
         height: 80%;
         border-radius: 20px 20px;
     }
@@ -957,7 +978,7 @@ ul li a:hover {
         position: absolute;
         top: 210px;
         left: 145px;
-        width: 60%;
+        width: 65%;
     }
 
     /* Elements */
@@ -1136,33 +1157,27 @@ ul li a:hover {
         position: absolute;
         top: 185%;
         left: 100px;
-        margin-top: 40px;
+        margin-top: 200px;
     }
 
     #help h1 {
         margin-left: -15px;
     }
 
-    #support {
-        position: absolute;
-        left: -160px;
-        width: 160px;
-        height: 120px;
-    }
-    
-    #information {
-        position: absolute;
-        top: 350px;
-        left: -160px;
-        width: 160px;
-        height: 120px;
+    #support, #information {
+        flex-basis: 30%;
+        margin: 20px 20px 0 0;
+        width: 40px;
+        height: 100px;
     }
 
     /* Blog */
     #blog {
+        display: flex;
+        flex-wrap: wrap;
         position: absolute;
         top: 300%;
-        width: 0px;
+        width: 0;
     }
 
     #blog h1 {
@@ -1171,6 +1186,7 @@ ul li a:hover {
     }
 
     #A17, #CAMPRO, #BAT {
+        flex-basis: 100%;
         margin-top: 100px;
         margin-left: -15px;
     }
