@@ -239,10 +239,10 @@ setInterval(autoCycleAction, 1500);
 // Media screen only
 var menu = document.getElementById('sidemenu');
 function openMenu() {
-    menu.style.top = "-17px";
+    menu.style.top = "-20px";
 }
 
 function closeMenu() {
-    menu.style.top = "-55px";
+    menu.style.top = "-60px";
 }
 
