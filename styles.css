@@ -811,6 +811,7 @@ ul li a:hover {
         display: flex;
         font-size: 20px;
         flex-wrap: wrap;
+        float: right;
         margin: 10px;
         text-align: center;
     }
@@ -828,7 +829,6 @@ ul li a:hover {
         background-color: var(--maincolor);
         position: fixed;
         top: -60px;
-        margin-left: -50px;
         z-index: 2;
         transition: top 0.5s;
     }
