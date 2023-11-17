@@ -89,7 +89,7 @@ ul li a:hover {
     top: 21%;
     height: 2.3%;
     padding: 0 25px 0;
-    margin: 0 60px 0;
+    margin: 0 75px 0;
     background: rgb(0, 0, 0);
     border-radius: 100px;
 }
@@ -100,7 +100,7 @@ ul li a:hover {
     top: 21.5%;
     width: 11px;
     height: 11px;
-    margin: 0 65px 0;
+    margin: 0 80px 0;
     background: linear-gradient(rgb(2, 2, 53), rgb(71, 56, 114));
     border-radius: 50%;
     box-shadow: 0 0 2px var(--maincolor);
@@ -109,7 +109,7 @@ ul li a:hover {
 #clock {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
-    padding: 60px 30px 0;
+    padding: 60px 42px 0;
     position: absolute;
     right: 10%;
     top: 30%;
@@ -120,7 +120,7 @@ ul li a:hover {
 #date {
     color: white;
     position: absolute;
-    padding: 0 80px 0;
+    padding: 0 90px 0;
     right: 10%;
     top: 35%;
     font-size: 12px;
@@ -867,22 +867,22 @@ ul li a:hover {
     }
 
     #camera {
-        margin: 55px 45px 0;
+        margin: 55px 55px 0;
     }
 
     #camera-lense {
-        margin: 55px 50px 0;
+        margin: 55px 60px 0;
     }
 
     #clock {
         position: absolute;
-        padding: 100px 10px 0;
+        padding: 100px 25px 0;
     }
 
     #date {
         position: absolute;
         top: 290px;
-        padding: 0 60px 0;
+        padding: 0 70px 0;
     }
 
     /* Details */
