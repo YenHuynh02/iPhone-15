@@ -805,7 +805,7 @@ ul li a:hover {
     display: none;
 }
 
-@media only screen and (min-width: 410.5px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     /*Top bar menu*/
     #menu nav .fa-xmark {
         display: flex;
