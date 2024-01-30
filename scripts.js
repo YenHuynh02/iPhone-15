@@ -14,7 +14,6 @@
     updateClock(); 
     setInterval(updateClock, 1000);
 })();
-
 // Date 
 (function() {
     var date = document.getElementById("date");
