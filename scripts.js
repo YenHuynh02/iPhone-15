@@ -10,6 +10,7 @@
         const timeString = `${hoursStr}:${minutesStr}`;
         clock.innerHTML = timeString;
     }
+    
     updateClock(); 
     setInterval(updateClock, 1000);
 })();
